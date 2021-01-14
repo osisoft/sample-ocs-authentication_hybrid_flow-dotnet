@@ -80,4 +80,4 @@ Tested against DotNet 3.1.
 
 For the main OCS Authentication samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples-OCS/blob/master/docs/AUTHENTICATION_README.md)  
 For the main OCS samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples-OCS)  
-For the main samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples)
+For the main OSIsoft samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples)
