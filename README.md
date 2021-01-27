@@ -1,6 +1,6 @@
 # Hybrid Flow Sample and Test
 
-**Version:** 1.1.9
+**Version:** 1.1.10
 
 [![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/OCS/osisoft.sample-ocs-authentication_hybrid_flow-dotnet?repoName=osisoft%2Fsample-ocs-authentication_hybrid_flow-dotnet&branchName=main)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2612&repoName=osisoft%2Fsample-ocs-authentication_hybrid_flow-dotnet&branchName=main)
 
@@ -8,7 +8,8 @@ This client uses the OIDC Hybrid Flow to obtain an access token. See the main OC
 
 ## Requirements
 
-- .NET Core 3.1 or later
+- .NET 5.0 or later
+    - Note: Visual Studio 16.8 or later is required for development against .NET 5.0
 - Web Browser with Javascript enabled
   - You will need Google Chrome if you want to run the automated test
 
@@ -76,7 +77,7 @@ dotnet test
 
 ---
 
-Tested against DotNet 3.1.
+Tested against DotNet 5.0
 
 For the main OCS Authentication samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples-OCS/blob/master/docs/AUTHENTICATION_README.md)  
 For the main OCS samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples-OCS)  
