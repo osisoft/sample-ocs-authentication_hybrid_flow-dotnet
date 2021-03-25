@@ -45,13 +45,13 @@ jobs:
           fileLibrary: $(CredFileLibrary)
           filePath: /HybridFlow
 
-      # - script: npm install chromedriver
-      #   displayName: 'Install chromedriver'
+      - script: npm install chromedriver
+        displayName: 'Install chromedriver'
 
       - task: DotNetCoreCLI@2
         displayName: 'Run tests'
         env:
-          CHROMEWEBDRIVER: '.'
+          CHROMEWEBDRIVER: $(Build.SourcesDirectory)\node_modules\chromedriver\lib\chromedriver
         inputs:
           command: test
           publishTestResults: true
@@ -68,7 +68,5 @@ jobs:
           command: build
 
       - template: '/miscellaneous/build_templates/binskim.yml@templates'
-        parameters:
-          deleteBinSkim: '**/chromedriver.exe'
 
       - template: '/miscellaneous/build_templates/analysis.yml@templates'
