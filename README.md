@@ -2,7 +2,7 @@
 
 **Version:** 1.1.11
 
-[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/OCS/osisoft.sample-ocs-authentication_hybrid_flow-dotnet?repoName=osisoft%2Fsample-ocs-authentication_hybrid_flow-dotnet&branchName=main)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2612&repoName=osisoft%2Fsample-ocs-authentication_hybrid_flow-dotnet&branchName=main)
+[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/OCS/osisoft.sample-ocs-authentication_hybrid-dotnet?repoName=osisoft%2Fsample-ocs-authentication_hybrid-dotnet&branchName=main)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=3091&repoName=osisoft%2Fsample-ocs-authentication_hybrid-dotnet&branchName=main)
 
 This client uses the OIDC Hybrid Flow to obtain an access token. See the main OCS Authentication samples page [README](https://github.com/osisoft/OSI-Samples-OCS/blob/main/docs/AUTHENTICATION_README.md) for more information about this flow.
 
