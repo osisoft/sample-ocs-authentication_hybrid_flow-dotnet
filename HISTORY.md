@@ -1,5 +1,9 @@
 # Version History
 
+## 1.1.15 / 2021-05-20
+
+- Updated dependencies
+
 ## 1.1.14 / 2021-05-10
 
 - Remove dependency on IdentityModel
