@@ -2,7 +2,7 @@
 
 ## 1.1.15 / 2021-06-09
 
-- Remove dependency on IdentityModel
+- Updated dependencies
 
 ## 1.1.14 / 2021-05-10
 
